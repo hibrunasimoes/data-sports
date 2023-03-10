@@ -8,7 +8,8 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsum natus corrupti, perferendis iure architecto blanditiis placeat aspernatur animi rem sed ea et voluptate voluptates nesciunt quod similique rerum minima.</p>
         </div>
         <div class="col-lg-4 col-sm-6" v-for="testimonial in testimonials" :key="testimonial.id">
-            <div class="item">
+            <div class="item"> <img class ="image" src=".././assets/image/quote.svg" alt="">
+            
               <p class="testimonial-text">{{testimonial.description}}</p>
               <div class="testimonial-author">{{testimonial.name}}</div>
               <div class="occupation">{{testimonial.role}}</div>
@@ -110,6 +111,11 @@ export default {
   border: 5px solid lightgray;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
+
+}
+
+.image {
+  width: 30px;
 
 }
 
