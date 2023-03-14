@@ -3,6 +3,7 @@
   <HeroPage />
   <TestimonialsPage />
   <EmployeesPage />
+  <SportsPage />
   
 </template>
 
@@ -11,6 +12,7 @@ import NavBarComponent  from './components/NavBarComponent';
 import EmployeesPage from './pages/EmployeesPage.vue';
 import HeroPage from './pages/HeroPage.vue';
 import TestimonialsPage from './pages/TestimonialsPage.vue';
+import SportsPage from './pages/SportsPage.vue';
 
 export default {
   components: {
@@ -18,6 +20,7 @@ export default {
     HeroPage,
     TestimonialsPage,
     EmployeesPage,
+    SportsPage
   }
 }
 </script>

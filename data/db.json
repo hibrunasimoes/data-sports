@@ -65,5 +65,23 @@
       "status":"Awaiting",
       "position": "Senior" 
     }
+  ],
+  "sports": [ 
+  {
+    "categoriesSports": "Basquete",
+    "descriptionSports": "Nossas especialidades",
+    "sportsImage": "../../src/assets/image/basquete.svg"
+  },
+
+  {
+    "categoriesSports": "Futebol",
+    "descriptionSports": "Nossas especialidades no futebol",
+    "sportsImage": "image/bola.svg"
+  },
+  {
+    "categoriesSports": "Volei",
+    "descriptionSports": "Nossas especialidades",
+    "sportsImage": "../../src/assets/image/volei.svg"
+  }
   ]
  }
