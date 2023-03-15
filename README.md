@@ -57,7 +57,7 @@ npm run serve
 ````
 Para rodar o back-end, rode o comamando:
 ````sh
-npm run back-end
+npm run backend
 ````
 Para rodar os testes em jest
 ````sh
