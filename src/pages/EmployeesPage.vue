@@ -38,10 +38,6 @@
             </td>
             <td>{{employe.position}}</td>
           </tr>
-          <tr>
-          </tr>
-          <tr>
-          </tr>
         </tbody>
       </table>
     </div>
