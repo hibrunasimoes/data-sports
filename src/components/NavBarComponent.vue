@@ -25,10 +25,12 @@
   </nav>
 </template>
 
+
 <script>
 export default {
   name: 'NavBarComponent'
 }
+
 </script>
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
@@ -57,11 +59,26 @@ export default {
   color: #fff;
   background-color: #6f42c1;
   border-color: #61129F;
+  
 }
-span{
+.btn-purple:hover {
+  background-color: #6f42c1;
+  color: #fff;
+
+}
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.span{
   display: inline-block;
   text-decoration:none;
   color: inherit;
   color: #61129F;
 }
+
 </style>
