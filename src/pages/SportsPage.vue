@@ -1,24 +1,41 @@
 <template>
-<section class="setup">
-  <div class="container">
-    <div class="text-header text-center">
-      <h3>Conheca nossos servicos</h3>
-      <p>Nossos esportes......</p>
-    </div>
-    <div class="items text-center"> 
+<section class="setup" id="services">
+          <div class="section-header">
+          <h4>Serviços</h4>
+          <i class="fa-duotone fa-quotes"></i>
+          <p>Se o seu esporte não esta aqui, entre em contato consco, fazemos analises personalizadas</p>
+        </div>
+      <div class="items text-center"> 
       <div class="row">
-        <div class="col-md-4 " v-for="sport in sports" :key="sport.categoriesSports">
+        <div class="col-md-4">
           <div class="icons">
-            <img class ="icons-services" :src="sport.sportsImage" alt="">
+            <img class ="icons-services" src="../assets/image/basquete.svg" alt="">
           </div>
           <div class="desc">
-            <h5>{{sport.categoriesSports}}</h5>
-            <p>{{sport.descriptionSports}}</p>
+              <h5>Basquete</h5>    
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec mauris justo. Aliquam tincidunt nulla velit, sed placerat metus commodo nec.</p>
           </div>
         </div>
+        <div class="col-md-4">
+          <div class="icons">
+            <img class ="icons-services" src="../assets/image/volei.svg" alt="">
+          </div>
+          <div class="desc">
+              <h5>Vôlei</h5>    
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec mauris justo. Aliquam tincidunt nulla velit, sed placerat metus commodo nec.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="icons">
+            <img class ="icons-services" src="../assets/image/bola.svg" alt="">
+          </div>
+          <div class="desc">      
+              <h5>Futebol</h5>    
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec mauris justo. Aliquam tincidunt nulla velit, sed placerat metus commodo nec.</p>
+         </div>
       </div>
-    </div>
-  </div>
+   </div>
+</div>  
 </section>
 </template>
 
@@ -43,12 +60,16 @@ export default {
 </script>
 
 <style scoped>
-section.setup {
-  padding: 287px 0;
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins:wght@100;300;400;500&display=swap');
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #010101;
 }
 .icons .icons-services{
   width: 40px;
-
+}
+section.setup {
+  padding: 5rem 0;
 }
 section.setup .text-header h3 {
   font-size: 42px;
@@ -60,7 +81,7 @@ section.setup .text-header p {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
-  color: black;
+  color: gray;
 }
 
 section.setup .icons {

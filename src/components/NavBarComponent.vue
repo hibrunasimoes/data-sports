@@ -12,10 +12,10 @@
             <a class="nav-link active" aria-current="page" href="#">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Servicos</a>
+            <a class="nav-link" href="#services">Serviços</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link me-5" href="#">Esportes</a>
+            <a class="nav-link me-5" href="#faleconosco">Fale Conosco</a>
           </li>
         </ul>
         <a href="#" class ="btn btn-purple ">
@@ -64,7 +64,6 @@ export default {
 .btn-purple:hover {
   background-color: #6f42c1;
   color: #fff;
-
 }
 
 @media (max-width: 767px) {

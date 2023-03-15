@@ -78,7 +78,7 @@
 
 <script>
 export default {
-  name: "FooterPage"
+  name: "FooterPage",
 }
 </script>
 

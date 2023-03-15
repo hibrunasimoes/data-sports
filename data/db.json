@@ -42,46 +42,43 @@
       "name":"Bruna Simoes",
       "email": "bruna.simoesmoita@gmail.com",
       "role":"Software engineer",
-      "department":"IT department",
-      "adressImage": "https://mdbootstrap.com/img/new/avatars/8.jpg",
-      "status":"active",
+      "department":"Departamento TI",
+      "adressImage": "https://mdbootstrap.com/img/new/avatars/4.jpg",
+      "status":"Ativo",
       "position": "Senior" 
     },
     {
       "name":"Brenda Sousa",
       "email": "brena.sousaa@gmail.com",
-      "role":"Consultant",
-      "department":"Finances",
-      "adressImage": "https://mdbootstrap.com/img/new/avatars/8.jpg",
-      "status":"Onboarding",
+      "role":"Consultora",
+      "department":"Financeiro",
+      "adressImage": "https://mdbootstrap.com/img/new/avatars/5.jpg",
+      "status":"Ativo",
       "position": "Junior" 
     },
     {
       "name":"Luisa Campos",
       "email": "luisa.campos@gmail.com",
-      "role":"Tech Leader",
-      "department":"IT department",
-      "adressImage": "https://mdbootstrap.com/img/new/avatars/8.jpg",
-      "status":"Awaiting",
+      "role":"Software developer",
+      "department":"Departamento TI",
+      "adressImage": "https://mdbootstrap.com/img/new/avatars/6.jpg",
+      "status":"Ativo",
       "position": "Senior" 
     }
   ],
   "sports": [ 
   {
     "categoriesSports": "Basquete",
-    "descriptionSports": "Nossas especialidades",
-    "sportsImage": "image/basquete.svg"
+    "descriptionSports": "Nossas especialidades"
   },
 
   {
     "categoriesSports": "Futebol",
-    "descriptionSports": "Nossas especialidades no futebol",
-    "sportsImage": "image/bola.svg"
+    "descriptionSports": "Nossas especialidades no futebol"
   },
   {
     "categoriesSports": "Volei",
-    "descriptionSports": "Nossas especialidades",
-    "sportsImage": "../../src/assets/image/volei.svg"
+    "descriptionSports": "Nossas especialidades"
   }
   ]
  }

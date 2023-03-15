@@ -3,20 +3,18 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-          <div class="text-label">
-              DataEL<span>{</span>AS<span>}</span>
-          </div>
           <div class="text-hero-bold">
             Sua performance <br>
-            em outro nivel.
+            em outro nível
           </div>
           <div class="text-hero-regular">
           Fornecemos experiência e análise esportiva que definem tomada 
-          de decisao mais precisa para melhor desempenho.
+          de decisao mais precisa para melhor desempenho das principais
+          atletas esportivas do mundo.
           </div>
           <div class="buttons">
-            <a href="#" class="btn btn-primary shadow-none"> Entre em contato agora!</a>
-            <a href="#" class="btn btn-secondary shadow-none ms-3 "> Entre em contato agora!</a>
+            <a href="#" class=" btn btn-purple shadow-none ms-3"> Entre em contato agora!</a>
+
           </div>
       </div>
       <div class="col-md-6">
@@ -57,7 +55,7 @@ export default {
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins:wght@100;300;400;500&display=swap');
-.section-hero {
+.hero {
   padding: 5rem 0;
 }
 
@@ -70,6 +68,16 @@ body {
   font-size: 48px;
   line-height: 73px;
 }
+.btn-purple {
+  color: #fff;
+  background-color: #6f42c1;
+  border-color: #61129F;
+  
+}
+.btn-purple:hover {
+  background-color: #6f42c1;
+  color: #fff;
+}
 
 .buttons {
   padding-top: 30px
@@ -81,9 +89,9 @@ body {
 }
 .text-label {
   line-height: 31px;
-  color: var(--primary);
-  font-size: var(--text-regular);
-  font-weight: var(--font-weight-regular);
+  color: #FBC257;
+  font-size: 500;
+  font-weight: 400;
   line-height: 31px;
 
 }
@@ -105,12 +113,4 @@ body {
     width:84%;
   }
 }
-
-/* Mobile Version only */
-/* @media(min-width: 1280px) {
-  .hero {
-    margin:2rem 0;
-    text-align: center;
-  }
-} */
 </style>

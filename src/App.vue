@@ -1,9 +1,9 @@
 <template>
   <NavBarComponent />
   <HeroPage />
+  <SportsPage />
   <TestimonialsPage />
   <EmployeesPage />
-  <SportsPage />
   <FormPage />
   <FooterPage />
 </template>
@@ -15,7 +15,8 @@ import HeroPage from './pages/HeroPage.vue';
 import TestimonialsPage from './pages/TestimonialsPage.vue';
 import SportsPage from './pages/SportsPage.vue';
 import FormPage from './pages/FormPage.vue';
-import FooterPage from './pages/FooterPage.vue'
+import FooterPage from './pages/FooterPage.vue';
+
     
 
 export default {
@@ -26,7 +27,7 @@ export default {
     EmployeesPage,
     SportsPage,
     FormPage,
-    FooterPage
+    FooterPage,
   }
 }
 </script>
@@ -36,5 +37,15 @@ export default {
     margin: 0;
     box-sizing: border-box;
   }
+  .scroll-to-top {
+  padding: 30px 0;
+  position: absolute;
+  right: 0;
+}
+.scroll-to-top button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
 </style>
 

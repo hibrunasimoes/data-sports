@@ -5,8 +5,9 @@
         <div class="section-header">
           <h4> Depoimentos</h4>
           <i class="fa-duotone fa-quotes"></i>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsum natus corrupti, perferendis iure architecto blanditiis placeat aspernatur animi rem sed ea et voluptate voluptates nesciunt quod similique rerum minima.</p>
+          <p>Veja o que nossos clientes estão dizendo sobre nossos serviços.</p>
         </div>
+        <br>
         <div class="col-lg-4 col-sm-6" v-for="testimonial in testimonials" :key="testimonial.id">
             <div class="item"> <img class ="image" src=".././assets/image/quote.svg" alt="">
             
@@ -15,31 +16,6 @@
               <div class="occupation">{{testimonial.role}}</div>
            </div>
           </div>
-          <!-- <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum enim perferendis minima! Quae maxime in earum. Rerum distinctio, quae consequatur minima laboriosam nesciunt vitae odit modi in aspernatur! Molestiae, quis.</p>
-             </div>
-            </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum enim perferendis minima! Quae maxime in earum. Rerum distinctio, quae consequatur minima laboriosam nesciunt vitae odit modi in aspernatur! Molestiae, quis.</p>
-           </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum enim perferendis minima! Quae maxime in earum. Rerum distinctio, quae consequatur minima laboriosam nesciunt vitae odit modi in aspernatur! Molestiae, quis.</p>
-           </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum enim perferendis minima! Quae maxime in earum. Rerum distinctio, quae consequatur minima laboriosam nesciunt vitae odit modi in aspernatur! Molestiae, quis.</p>
-           </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum enim perferendis minima! Quae maxime in earum. Rerum distinctio, quae consequatur minima laboriosam nesciunt vitae odit modi in aspernatur! Molestiae, quis.</p>
-           </div>
-          </div> -->
       </div>
     </div>
   </div> 
@@ -66,6 +42,7 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins:wght@100;300;400;500&display=swap');
 .section-header {
   margin-bottom: 6opx;
 }
@@ -95,10 +72,11 @@ export default {
 }
 
 .section-header p {
-  color:#010101;
-  font-size: 16px;
-  line-height: 28px;
   text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: gray;
 }
 
 .item {
@@ -113,10 +91,7 @@ export default {
   transition: all 0.5s ease 0s;
 
 }
-
 .image {
   width: 30px;
-
 }
-
 </style>
