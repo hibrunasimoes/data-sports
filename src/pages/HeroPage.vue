@@ -3,22 +3,19 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-          <!-- <div class="text-label">
+          <div class="text-label">
               DataEL<span>{</span>AS<span>}</span>
-          </div> -->
+          </div>
           <div class="text-hero-bold">
-            Cresca conosco, melhore o seu desempenho
+            Sua performance <br>
+            em outro nivel.
           </div>
           <div class="text-hero-regular">
           Fornecemos experiência e análise esportiva que definem tomada 
-          de decisao mais precisa para melhor desempenho das principais
-          atletas esportivas do mundo.
+          de decisao mais precisa para melhor desempenho.
           </div>
-          <!-- <div class="text-label">
-            Melhore seu desempenho esportivo, conheca nossos produtos
-          </div> -->
           <div class="buttons">
-            <a href="#" class="btn btn-primary shadow-none  "> Entre em contato agora!</a>
+            <a href="#" class="btn btn-primary shadow-none"> Entre em contato agora!</a>
             <a href="#" class="btn btn-secondary shadow-none ms-3 "> Entre em contato agora!</a>
           </div>
       </div>
@@ -59,10 +56,13 @@ export default {
   --font-weight-leight: 400;
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins:wght@100;300;400;500&display=swap');
 .section-hero {
-  padding: 90px 0;
+  padding: 5rem 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif
 }
 
 .text-label{
@@ -72,7 +72,7 @@ export default {
 }
 
 .buttons {
-  padding-top: 60px
+  padding-top: 30px
 }
 .text-label,
 .text-hero-bold,
@@ -88,10 +88,10 @@ export default {
 
 }
 .text-hero-bold{
-  line-height: 74px;
+  line-height: 60px;
   color: var(--dark-brown);
   font-size: 64px;
-  font-weight: var(--font-weight-bold);
+  font-weight: 400;
 }
 .text-hero-regular{
   line-height: 31px;
@@ -100,4 +100,17 @@ export default {
   font-weight: var(--font-weight-regular);
 }
 
+@media(min-width: 1399.98) {
+  .container {
+    width:84%;
+  }
+}
+
+/* Mobile Version only */
+/* @media(min-width: 1280px) {
+  .hero {
+    margin:2rem 0;
+    text-align: center;
+  }
+} */
 </style>
