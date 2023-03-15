@@ -1,6 +1,5 @@
 <h1 align="center">
    <p> Data{{ELAS}} - Empreendev</p>
-  Analise de desempenho de atletas.
 </h1> 
 
 <h4 align="center"> 
