@@ -4,6 +4,7 @@
   <TestimonialsPage />
   <EmployeesPage />
   <SportsPage />
+  <FormPage />
   
 </template>
 
@@ -13,6 +14,7 @@ import EmployeesPage from './pages/EmployeesPage.vue';
 import HeroPage from './pages/HeroPage.vue';
 import TestimonialsPage from './pages/TestimonialsPage.vue';
 import SportsPage from './pages/SportsPage.vue';
+import FormPage from './pages/FormPage.vue';
 
 export default {
   components: {
@@ -20,7 +22,8 @@ export default {
     HeroPage,
     TestimonialsPage,
     EmployeesPage,
-    SportsPage
+    SportsPage,
+    FormPage
   }
 }
 </script>
